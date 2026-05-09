@@ -1,352 +1,1132 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0100)file:///C:/Users/Pedro%20Henrique/Documents/Codex/2026-05-09/doctype-html-html-lang-pt-br/index.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flor da Pele | Vitrine Premium</title>
-    
-    <meta name="description" content="Flor da Pele - Lingerie, acessórios e maquiagem em Canoas/RS. Qualidade e sofisticação que cabem no seu bolso.">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#050505">
+
+    <title>Flor da Pele | Lingerie, Acessórios e Maquiagem em Canoas/RS</title>
+    <meta name="description" content="Flor da Pele em Canoas/RS: lingerie, acessórios e maquiagem com curadoria feminina, qualidade e preço acessível. Compre pelo WhatsApp ou visite a loja.">
+    <meta name="keywords" content="Flor da Pele, lingerie Canoas, maquiagem Canoas, acessórios femininos, loja Guajuviras, lingerie RS">
+    <meta name="author" content="Flor da Pele">
+
+    <meta property="og:type" content="business.business">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Flor da Pele">
+    <meta property="og:title" content="Flor da Pele | Lingerie, Acessórios e Maquiagem">
+    <meta property="og:description" content="Curadoria de lingerie, acessórios e make em Canoas/RS. Qualidade premium com preço que cabe no bolso.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1616431575956-619116c9655d?q=80&amp;w=1600&amp;auto=format&amp;fit=crop">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Flor da Pele | Vitrine Premium">
+    <meta name="twitter:description" content="Lingerie, acessórios e maquiagem em Canoas/RS. Peça pelo WhatsApp ou visite a loja.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1616431575956-619116c9655d?q=80&amp;w=1600&amp;auto=format&amp;fit=crop">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link rel="icon" type="image/png" sizes="32x32" href="file:///C:/Users/Pedro%20Henrique/Documents/Codex/2026-05-09/doctype-html-html-lang-pt-br/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="file:///C:/Users/Pedro%20Henrique/Documents/Codex/2026-05-09/doctype-html-html-lang-pt-br/apple-touch-icon.png">
+    <link href="./Flor da Pele _ Lingerie, Acessórios e Maquiagem em Canoas_RS_files/css2" rel="stylesheet">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Store",
+            "name": "Flor da Pele",
+            "description": "Loja de lingerie, acessórios e maquiagem em Canoas/RS.",
+            "image": "https://images.unsplash.com/photo-1616431575956-619116c9655d?q=80&w=1600&auto=format&fit=crop",
+            "telephone": "+55 51 98578-6181",
+            "priceRange": "$$",
+            "sameAs": [
+                "https://www.instagram.com/flordapeleacessorios/"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Av. 17 de Abril, 326 - Loja 04",
+                "addressLocality": "Canoas",
+                "addressRegion": "RS",
+                "addressCountry": "BR"
+            },
+            "areaServed": "Canoas, RS",
+            "makesOffer": [
+                { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Lingerie" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Maquiagem" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Acessórios femininos" } }
+            ]
+        }
+    </script>
 
     <style>
         :root {
-            --preto-profundo: #050505; 
+            --preto-profundo: #050505;
             --preto-metalico: #121212;
-            --rosa-pink: #FF1493;
-            --dourado-fino: #D4AF37;
-            --branco-marfim: #FAFAFA;
-            --overlay: rgba(0, 0, 0, 0.8);
+            --preto-suave: #1d171b;
+            --rosa-pink: #ffc0cb;
+            --rosa-claro: #ffe1e7;
+            --dourado-fino: #d4af37;
+            --champagne: #f4dfbf;
+            --branco-marfim: #fafafa;
+            --cinza-texto: #d9d2d6;
+            --linha: rgba(244, 223, 191, 0.18);
+            --sombra-pink: rgba(255, 192, 203, 0.34);
+            --max-width: 1180px;
+            --header-height: 96px;
         }
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: var(--header-height);
+        }
 
         body {
-            font-family: 'Montserrat', sans-serif;
+            min-height: 100vh;
+            font-family: "Montserrat", Arial, sans-serif;
             color: var(--branco-marfim);
-            background-color: var(--preto-profundo);
+            background:
+                radial-gradient(circle at top left, rgba(255, 192, 203, 0.14), transparent 32rem),
+                linear-gradient(135deg, var(--preto-profundo), #0d090c 52%, #060606);
             overflow-x: hidden;
-            scroll-behavior: smooth;
         }
 
-        /* Navegação */
-        header {
-            background-color: rgba(5, 5, 5, 0.95);
-            padding: 20px 0;
-            text-align: center;
-            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        .skip-link {
             position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            backdrop-filter: blur(8px);
-        }
-
-        .logo-text { 
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            color: var(--rosa-pink);
+            top: 10px;
+            left: 10px;
+            z-index: 2000;
+            transform: translateY(-150%);
+            padding: 12px 16px;
+            background: var(--rosa-pink);
+            color: var(--preto-profundo);
             text-decoration: none;
-            font-style: italic;
-            letter-spacing: -1px;
+            font-weight: 700;
+            border-radius: 4px;
+            transition: transform 0.2s ease;
         }
 
-        nav ul { 
-            list-style: none; 
-            margin-top: 15px;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
+        .skip-link:focus {
+            transform: translateY(0);
         }
 
-        nav ul li a { 
-            color: var(--branco-marfim); 
-            text-decoration: none; 
-            font-weight: 200; 
-            font-size: 0.7rem; 
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            transition: 0.4s; 
+        .container {
+            width: min(100% - 40px, var(--max-width));
+            margin-inline: auto;
         }
 
-        nav ul li a:hover { color: var(--rosa-pink); }
+        .site-header {
+            position: fixed;
+            inset: 0 0 auto;
+            z-index: 1000;
+            background: rgba(5, 5, 5, 0.88);
+            border-bottom: 1px solid var(--linha);
+            backdrop-filter: blur(14px);
+        }
 
-        /* Hero Section */
-        .hero {
-            height: 100vh;
-            background: linear-gradient(var(--overlay), var(--overlay)), url('https://images.unsplash.com/photo-1550617931-e17a7b70dce2?q=80&w=2070&auto=format&fit=crop'); 
-            background-size: cover;
-            background-position: center;
+        .header-inner {
+            min-height: var(--header-height);
             display: flex;
             align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 0 20px;
+            justify-content: space-between;
+            gap: 24px;
+            padding-block: 18px;
         }
 
-        .hero-content h1 { 
-            font-family: 'Playfair Display', serif; 
-            font-size: clamp(2.5rem, 8vw, 4.5rem); 
-            margin-bottom: 10px;
-            font-style: italic;
-        }
-
-        .hero-content .subtitle {
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            margin-bottom: 30px;
-            color: var(--rosa-pink);
-            font-weight: 400;
-        }
-
-        .hero-content .description {
-            max-width: 600px;
-            margin: 0 auto 40px;
-            font-weight: 200;
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-
-        /* Botões */
-        .btn {
-            padding: 16px 40px;
+        .brand {
             text-decoration: none;
-            font-weight: 400;
-            text-transform: uppercase;
-            font-size: 0.75rem;
-            letter-spacing: 2px;
-            transition: 0.5s;
-            display: inline-block;
-            border: 1px solid var(--branco-marfim);
+            line-height: 1;
         }
 
-        .btn-online {
-            background-color: var(--rosa-pink);
-            border-color: var(--rosa-pink);
-            color: white;
-            margin-right: 10px;
-        }
-
-        .btn-online:hover {
-            background-color: transparent;
+        .brand-name {
+            display: block;
+            font-family: "Playfair Display", Georgia, serif;
+            font-size: clamp(1.65rem, 3vw, 2.25rem);
+            font-style: italic;
             color: var(--rosa-pink);
-            box-shadow: 0 0 20px rgba(255, 20, 147, 0.4);
+            letter-spacing: 0;
         }
 
-        .btn-vitrine {
+        .brand-place {
+            display: block;
+            margin-top: 8px;
+            color: var(--champagne);
+            font-size: 0.66rem;
+            font-weight: 600;
+            letter-spacing: 0.18rem;
+            text-transform: uppercase;
+        }
+
+        .site-nav ul {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 6px;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        .site-nav a {
+            display: inline-flex;
+            min-height: 40px;
+            align-items: center;
+            justify-content: center;
+            padding: 0 12px;
             color: var(--branco-marfim);
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.12rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 4px;
+            transition: background 0.25s ease, color 0.25s ease;
         }
 
-        .btn-vitrine:hover {
-            border-color: var(--dourado-fino);
-            color: var(--dourado-fino);
+        .site-nav a:hover,
+        .site-nav a:focus-visible {
+            background: rgba(255, 192, 203, 0.18);
+            color: var(--rosa-claro);
+            outline: none;
         }
 
-        /* Vitrine Grid */
-        .vitrine {
-            padding: 100px 20px;
-            max-width: 1200px;
-            margin: 0 auto;
+        .site-nav .nav-shop {
+            color: var(--preto-profundo);
+            background: var(--rosa-pink);
         }
 
-        .vitrine-header {
+        .site-nav .nav-shop:hover,
+        .site-nav .nav-shop:focus-visible {
+            color: var(--preto-profundo);
+            background: var(--branco-marfim);
+        }
+
+        .hero {
+            min-height: 100svh;
+            display: grid;
+            align-items: center;
+            position: relative;
+            padding: calc(var(--header-height) + 48px) 0 76px;
+            isolation: isolate;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            z-index: -2;
+            background-image:
+                linear-gradient(90deg, rgba(5, 5, 5, 0.9) 0%, rgba(5, 5, 5, 0.64) 46%, rgba(5, 5, 5, 0.25) 100%),
+                url("https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=2200&auto=format&fit=crop");
+            background-size: cover;
+            background-position: center right;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            inset: auto 0 0;
+            z-index: -1;
+            height: 34%;
+            background: linear-gradient(transparent, var(--preto-profundo));
+        }
+
+        .hero-content {
+            width: min(100%, 690px);
+        }
+
+        .eyebrow {
+            color: var(--rosa-claro);
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.22rem;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            margin-top: 16px;
+            font-family: "Playfair Display", Georgia, serif;
+            font-size: clamp(3rem, 8vw, 6.4rem);
+            font-style: italic;
+            line-height: 0.96;
+            letter-spacing: 0;
+            max-width: 760px;
+        }
+
+        .hero-description {
+            margin-top: 24px;
+            max-width: 580px;
+            color: var(--cinza-texto);
+            font-size: clamp(1rem, 1.8vw, 1.18rem);
+            font-weight: 300;
+            line-height: 1.8;
+        }
+
+        .cta-row {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: 34px;
+        }
+
+        .btn {
+            min-height: 52px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 0 26px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 0.76rem;
+            font-weight: 700;
+            letter-spacing: 0.12rem;
+            transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .btn:hover,
+        .btn:focus-visible {
+            transform: translateY(-2px);
+            outline: none;
+        }
+
+        .btn-primary {
+            background: var(--rosa-pink);
+            color: var(--preto-profundo);
+            border-color: var(--rosa-pink);
+            box-shadow: 0 14px 32px var(--sombra-pink);
+        }
+
+        .btn-primary:hover,
+        .btn-primary:focus-visible {
+            background: #fff;
+            color: var(--preto-profundo);
+        }
+
+        .btn-secondary {
+            color: var(--champagne);
+            border-color: rgba(244, 223, 191, 0.56);
+            background: rgba(0, 0, 0, 0.24);
+        }
+
+        .btn-secondary:hover,
+        .btn-secondary:focus-visible {
+            color: var(--preto-profundo);
+            background: var(--champagne);
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        .floating-social {
+            position: fixed;
+            right: 24px;
+            bottom: 24px;
+            z-index: 1200;
+            display: grid;
+            justify-items: end;
+            gap: 12px;
+        }
+
+        .chat-nudge {
+            position: relative;
+            max-width: 190px;
+            padding: 10px 14px;
+            color: var(--preto-profundo);
+            background: var(--rosa-pink);
+            border-radius: 4px;
+            box-shadow: 0 16px 36px rgba(0, 0, 0, 0.36);
+            font-size: 0.72rem;
+            font-weight: 800;
+            letter-spacing: 0.08rem;
+            text-transform: uppercase;
+            animation: chat-nudge 2.8s ease-in-out infinite;
+        }
+
+        .chat-nudge::after {
+            content: "";
+            position: absolute;
+            right: 14px;
+            bottom: -7px;
+            width: 14px;
+            height: 14px;
+            background: inherit;
+            transform: rotate(45deg);
+        }
+
+        .floating-actions {
+            display: grid;
+            gap: 12px;
+        }
+
+        .float-action {
+            width: 58px;
+            height: 58px;
+            display: grid;
+            place-items: center;
+            position: relative;
+            border-radius: 50%;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.36);
+            box-shadow: 0 14px 32px rgba(0, 0, 0, 0.38);
+            text-decoration: none;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            animation: chat-float 3.4s ease-in-out infinite;
+        }
+
+        .float-action::before,
+        .float-action::after {
+            content: "";
+            position: absolute;
+            inset: -6px;
+            border-radius: inherit;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            opacity: 0;
+            animation: pulse-ring 2.2s ease-out infinite;
+        }
+
+        .float-action::after {
+            animation-delay: 0.8s;
+        }
+
+        .float-action:hover,
+        .float-action:focus-visible {
+            transform: translateY(-4px) scale(1.04);
+            box-shadow: 0 18px 42px rgba(0, 0, 0, 0.45);
+            outline: none;
+        }
+
+        .float-action svg {
+            width: 28px;
+            height: 28px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .float-action.whatsapp {
+            background: linear-gradient(135deg, #25d366, #128c7e);
+        }
+
+        .float-action.instagram {
+            background:
+                radial-gradient(circle at 30% 110%, #fdf497 0 18%, #fd5949 36%, #d6249f 62%, #285aeb 100%);
+            animation-delay: 0.35s;
+        }
+
+        @keyframes chat-nudge {
+            0%,
+            100% {
+                transform: translateX(0);
+                box-shadow: 0 16px 36px rgba(0, 0, 0, 0.36);
+            }
+            50% {
+                transform: translateX(-6px);
+                box-shadow: 0 16px 36px rgba(255, 192, 203, 0.36);
+            }
+        }
+
+        @keyframes chat-float {
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-5px);
+            }
+        }
+
+        @keyframes pulse-ring {
+            0% {
+                opacity: 0.55;
+                transform: scale(0.88);
+            }
+            80%,
+            100% {
+                opacity: 0;
+                transform: scale(1.32);
+            }
+        }
+
+        .hero-highlights {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1px;
+            width: min(100%, 760px);
+            margin-top: 52px;
+            border: 1px solid var(--linha);
+            background: var(--linha);
+        }
+
+        .highlight {
+            padding: 18px 16px;
+            background: rgba(5, 5, 5, 0.64);
+        }
+
+        .highlight strong {
+            display: block;
+            color: var(--champagne);
+            font-size: 0.76rem;
+            letter-spacing: 0.12rem;
+            text-transform: uppercase;
+        }
+
+        .highlight span {
+            display: block;
+            margin-top: 8px;
+            color: var(--cinza-texto);
+            font-size: 0.88rem;
+            line-height: 1.45;
+        }
+
+        .section {
+            padding: clamp(72px, 9vw, 112px) 0;
+        }
+
+        .section-muted {
+            background: linear-gradient(180deg, rgba(18, 18, 18, 0.88), rgba(9, 8, 8, 0.96));
+            border-block: 1px solid rgba(244, 223, 191, 0.1);
+        }
+
+        .section-heading {
+            display: grid;
+            gap: 14px;
+            max-width: 720px;
+            margin-bottom: 42px;
+        }
+
+        .section-heading.center {
             text-align: center;
-            margin-bottom: 60px;
+            margin-inline: auto;
+            justify-items: center;
         }
 
-        .vitrine-header h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.5rem;
-            margin-bottom: 10px;
+        .section-heading h2 {
+            font-family: "Playfair Display", Georgia, serif;
+            font-size: clamp(2.1rem, 5vw, 3.4rem);
+            line-height: 1.05;
+            letter-spacing: 0;
+        }
+
+        .section-heading p {
+            color: var(--cinza-texto);
+            font-size: 1rem;
+            line-height: 1.75;
+            font-weight: 300;
         }
 
         .divider {
-            width: 40px;
-            height: 1px;
-            background: var(--dourado-fino);
-            margin: 0 auto;
+            width: 52px;
+            height: 2px;
+            background: linear-gradient(90deg, var(--rosa-pink), var(--dourado-fino));
         }
 
-        .grid-vitrine {
+        .collection-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 18px;
         }
 
-        .card {
+        .collection-card {
             position: relative;
-            height: 500px;
+            min-height: 430px;
+            aspect-ratio: 3 / 4;
             overflow: hidden;
-            background-color: var(--preto-metalico);
+            border: 1px solid rgba(244, 223, 191, 0.14);
+            border-radius: 8px;
+            background: var(--preto-metalico);
         }
 
-        .card-img {
+        .collection-card::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(180deg, transparent 36%, rgba(0, 0, 0, 0.88) 100%),
+                linear-gradient(0deg, rgba(255, 192, 203, 0.1), transparent 55%);
+            pointer-events: none;
+        }
+
+        .collection-card img {
             width: 100%;
             height: 100%;
+            object-fit: cover;
+            filter: saturate(0.42) contrast(1.08);
+            transform: scale(1.01);
+            transition: transform 0.55s ease, filter 0.55s ease;
+        }
+
+        .collection-card:hover img,
+        .collection-card:focus-within img {
+            transform: scale(1.06);
+            filter: saturate(1) contrast(1);
+        }
+
+        .collection-info {
+            position: absolute;
+            z-index: 1;
+            inset: auto 0 0;
+            padding: 28px;
+        }
+
+        .collection-info h3 {
+            font-family: "Playfair Display", Georgia, serif;
+            color: var(--rosa-claro);
+            font-size: clamp(1.55rem, 3vw, 2rem);
+            line-height: 1.05;
+        }
+
+        .collection-info p {
+            margin-top: 10px;
+            color: var(--branco-marfim);
+            font-size: 0.95rem;
+            font-weight: 300;
+            line-height: 1.55;
+        }
+
+        .about-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(300px, 430px);
+            gap: clamp(32px, 6vw, 70px);
+            align-items: center;
+        }
+
+        .about-copy {
+            display: grid;
+            gap: 22px;
+        }
+
+        .about-copy h2 {
+            font-family: "Playfair Display", Georgia, serif;
+            font-size: clamp(2.1rem, 5vw, 3.25rem);
+            line-height: 1.05;
+            letter-spacing: 0;
+        }
+
+        .about-copy p {
+            color: var(--cinza-texto);
+            font-weight: 300;
+            line-height: 1.78;
+        }
+
+        .feature-list {
+            display: grid;
+            gap: 14px;
+            list-style: none;
+        }
+
+        .feature-list li {
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+            color: var(--branco-marfim);
+            line-height: 1.55;
+        }
+
+        .feature-list li::before {
+            content: "";
+            width: 8px;
+            height: 8px;
+            margin-top: 8px;
+            flex: 0 0 auto;
+            border-radius: 50%;
+            background: var(--dourado-fino);
+            box-shadow: 0 0 18px rgba(212, 175, 55, 0.7);
+        }
+
+        .about-photo {
+            overflow: hidden;
+            border-radius: 8px;
+            border: 1px solid var(--linha);
+            aspect-ratio: 4 / 5;
+            background: var(--preto-metalico);
+        }
+
+        .about-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .visit {
+            display: grid;
+            grid-template-columns: minmax(0, 0.95fr) minmax(300px, 1.05fr);
+            gap: clamp(28px, 5vw, 60px);
+            align-items: stretch;
+        }
+
+        .contact-panel {
+            display: grid;
+            align-content: center;
+            gap: 24px;
+        }
+
+        .contact-panel h2 {
+            font-family: "Playfair Display", Georgia, serif;
+            font-size: clamp(2.2rem, 5vw, 3.4rem);
+            line-height: 1.05;
+            letter-spacing: 0;
+        }
+
+        .contact-lines {
+            display: grid;
+            gap: 8px;
+            color: var(--cinza-texto);
+            font-weight: 300;
+            line-height: 1.65;
+        }
+
+        .contact-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .map-card {
+            min-height: 370px;
+            display: grid;
+            align-items: end;
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            border: 1px solid var(--linha);
+            background-image:
+                linear-gradient(180deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.84)),
+                url("https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=1600&auto=format&fit=crop");
             background-size: cover;
             background-position: center;
-            filter: grayscale(100%);
-            transition: 0.8s cubic-bezier(0.2, 1, 0.3, 1);
         }
 
-        .card:hover .card-img {
-            transform: scale(1.05);
-            filter: grayscale(0%);
+        .map-content {
+            padding: 28px;
         }
 
-        .card-info {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            padding: 30px;
-            background: linear-gradient(transparent, rgba(0,0,0,0.9));
+        .map-content p {
+            max-width: 420px;
+            color: var(--branco-marfim);
+            font-size: 1.05rem;
+            line-height: 1.7;
         }
 
-        .card-info h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.5rem;
-            color: var(--rosa-pink);
+        .site-footer {
+            padding: 44px 0;
+            border-top: 1px solid rgba(244, 223, 191, 0.1);
+            background: #030303;
         }
 
-        /* Contato & Localização */
-        .contato {
-            padding: 100px 20px;
-            text-align: center;
-            background-color: var(--preto-metalico);
+        .footer-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+            flex-wrap: wrap;
         }
 
-        .whatsapp-link {
-            display: inline-block;
-            margin-top: 20px;
-            color: var(--dourado-fino);
+        .footer-brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 16px;
+            color: inherit;
             text-decoration: none;
-            border-bottom: 1px solid var(--dourado-fino);
-            padding-bottom: 5px;
-            font-size: 0.9rem;
-            transition: 0.3s;
         }
 
-        .whatsapp-link:hover { color: var(--rosa-pink); border-color: var(--rosa-pink); }
-
-        /* Footer */
-        footer {
-            padding: 60px 20px;
-            text-align: center;
-            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        .footer-logo-image {
+            width: 86px;
+            height: 86px;
+            flex: 0 0 auto;
+            object-fit: contain;
+            border-radius: 50%;
+            background: #000;
+            border: 1px solid rgba(255, 192, 203, 0.5);
+            box-shadow: 0 14px 34px rgba(255, 192, 203, 0.16);
         }
 
         .footer-logo {
-            font-family: 'Playfair Display', serif;
+            font-family: "Playfair Display", Georgia, serif;
             font-size: 2rem;
-            color: var(--rosa-pink);
-            display: block;
-            margin-bottom: 20px;
             font-style: italic;
+            color: var(--rosa-pink);
+            letter-spacing: 0;
         }
 
-        @media (max-width: 768px) {
-            .hero-content h1 { font-size: 2.5rem; }
-            .btn { width: 100%; margin: 10px 0; }
-            nav ul { gap: 15px; }
+        .footer-meta {
+            color: rgba(250, 250, 250, 0.66);
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.12rem;
+            text-transform: uppercase;
+        }
+
+        .footer-links {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--champagne);
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.12rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: color 0.25s ease;
+        }
+
+        .footer-links a:hover,
+        .footer-links a:focus-visible {
+            color: var(--rosa-claro);
+            outline: none;
+        }
+
+        @media (max-width: 900px) {
+            :root {
+                --header-height: 128px;
+            }
+
+            .header-inner {
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+                gap: 14px;
+            }
+
+            .site-nav ul {
+                justify-content: center;
+            }
+
+            .hero::before {
+                background-image:
+                    linear-gradient(180deg, rgba(5, 5, 5, 0.94) 0%, rgba(5, 5, 5, 0.68) 54%, rgba(5, 5, 5, 0.42) 100%),
+                    url("https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1600&auto=format&fit=crop");
+                background-position: center;
+            }
+
+            .hero-content {
+                text-align: center;
+                margin-inline: auto;
+            }
+
+            .cta-row,
+            .hero-highlights {
+                justify-content: center;
+                margin-inline: auto;
+            }
+
+            .collection-grid,
+            .about-layout,
+            .visit {
+                grid-template-columns: 1fr;
+            }
+
+            .about-photo {
+                max-width: 520px;
+                width: 100%;
+                margin-inline: auto;
+            }
+        }
+
+        @media (max-width: 640px) {
+            :root {
+                --header-height: 150px;
+            }
+
+            .container {
+                width: min(100% - 28px, var(--max-width));
+            }
+
+            .site-nav a {
+                min-height: 36px;
+                padding: 0 9px;
+                font-size: 0.64rem;
+                letter-spacing: 0.08rem;
+            }
+
+            .hero {
+                padding-bottom: 54px;
+            }
+
+            .hero h1 {
+                font-size: clamp(2.7rem, 15vw, 4.4rem);
+            }
+
+            .cta-row {
+                display: grid;
+                grid-template-columns: 1fr;
+                width: 100%;
+            }
+
+            .btn {
+                width: 100%;
+                padding-inline: 18px;
+                text-align: center;
+            }
+
+            .hero-highlights {
+                grid-template-columns: 1fr;
+            }
+
+            .collection-card {
+                min-height: 360px;
+            }
+
+            .collection-info,
+            .map-content {
+                padding: 22px;
+            }
+
+            .contact-actions {
+                display: grid;
+            }
+
+            .floating-social {
+                right: 14px;
+                bottom: 16px;
+                gap: 10px;
+            }
+
+            .chat-nudge {
+                max-width: 160px;
+                padding: 9px 11px;
+                font-size: 0.66rem;
+            }
+
+            .float-action {
+                width: 52px;
+                height: 52px;
+            }
+
+            .float-action svg {
+                width: 25px;
+                height: 25px;
+            }
+
+            .footer-inner {
+                justify-content: center;
+                text-align: center;
+            }
+
+            .footer-brand {
+                flex-direction: column;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                scroll-behavior: auto !important;
+                transition-duration: 0.01ms !important;
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+            }
+
+            .float-action::before,
+            .float-action::after {
+                display: none;
+            }
         }
     </style>
 </head>
 <body>
+    <a class="skip-link" href="file:///C:/Users/Pedro%20Henrique/Documents/Codex/2026-05-09/doctype-html-html-lang-pt-br/index.html#conteudo">Pular para o conteúdo</a>
 
-    <header>
-        <div class="container">
-            <a href="#" class="logo-text">flor da pele</a>
-            <nav>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="file:///C:/Users/Pedro%20Henrique/Documents/Codex/2026-05-09/doctype-html-html-lang-pt-br/index.html#inicio" aria-label="Flor da Pele - página inicial">
+                <span class="brand-name">flor da pele</span>
+                <span class="brand-place">Canoas | RS</span>
+            </a>
+
+            <nav class="site-nav" aria-label="Navegação principal">
                 <ul>
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#vitrine">Coleções</a></li>
-                    <li><a href="#contato">Localização</a></li>
-                    <li><a href="https://URL-DA-SUA-NUVEMSHOP">Shop</a></li>
+                    <li><a href="file:///C:/Users/Pedro%20Henrique/Documents/Codex/2026-05-09/doctype-html-html-lang-pt-br/index.html#inicio">Início</a></li>
+                    <li><a href="file:///C:/Users/Pedro%20Henrique/Documents/Codex/2026-05-09/doctype-html-html-lang-pt-br/index.html#curadorias">Coleções</a></li>
+                    <li><a href="file:///C:/Users/Pedro%20Henrique/Documents/Codex/2026-05-09/doctype-html-html-lang-pt-br/index.html#sobre">Sobre</a></li>
+                    <li><a href="file:///C:/Users/Pedro%20Henrique/Documents/Codex/2026-05-09/doctype-html-html-lang-pt-br/index.html#contato">Localização</a></li>
+                    <li><a href="https://www.instagram.com/flordapeleacessorios/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                    <li><a class="nav-shop" href="https://wa.me/5551985786181?text=Oi%2C%20Flor%20da%20Pele%21%20Quero%20ver%20as%20pe%C3%A7as%20dispon%C3%ADveis." target="_blank" rel="noopener noreferrer">Comprar</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="inicio" class="hero">
-        <div class="hero-content">
-            <p class="subtitle">Elegância & Estilo</p>
-            <h1>Beleza que floresce.</h1>
-            <p class="description">
-                Lingerie, acessórios e make que você ama. <br>
-                Qualidade premium com o preço que cabe no seu bolso.
-            </p>
-            <div class="cta-buttons">
-                <a href="https://URL-DA-SUA-NUVEMSHOP" class="btn btn-online">Shop Online</a>
-                <a href="#vitrine" class="btn btn-vitrine">The Collection</a>
-            </div>
-        </div>
-    </section>
+    <main id="conteudo">
+        <section id="inicio" class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-content">
+                    <p class="eyebrow">Lingerie, acessórios e make</p>
+                    <h1 id="hero-title">Beleza que floresce na pele.</h1>
+                    <p class="hero-description">
+                        Uma vitrine feminina, elegante e acessível para escolher peças que acompanham seu momento: do básico confortável ao detalhe que muda o look.
+                    </p>
 
-    <main id="vitrine" class="vitrine">
-        <div class="vitrine-header">
-            <h2>Nossas Curadorias</h2>
-            <div class="divider"></div>
-        </div>
-        
-        <div class="grid-vitrine">
-            <div class="card">
-                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1616431575956-619116c9655d?q=80&w=1974&auto=format&fit=crop');"></div>
-                <div class="card-info">
-                    <h3>Lingerie</h3>
-                    <p>Renda & Sofisticação</p>
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1522338223662-32664f5a9f5a?q=80&w=1972&auto=format&fit=crop');"></div>
-                <div class="card-info">
-                    <h3>Makeup</h3>
-                    <p>Realce sua luz natural</p>
-                </div>
-            </div>
+                    <div class="cta-row" aria-label="Ações principais">
+                        <a class="btn btn-primary" href="https://wa.me/5551985786181?text=Oi%2C%20Flor%20da%20Pele%21%20Quero%20comprar%20pelo%20WhatsApp." target="_blank" rel="noopener noreferrer">Comprar pelo WhatsApp</a>
+                        <a class="btn btn-secondary" href="file:///C:/Users/Pedro%20Henrique/Documents/Codex/2026-05-09/doctype-html-html-lang-pt-br/index.html#curadorias">Ver coleções</a>
+                    </div>
 
-            <div class="card">
-                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=1974&auto=format&fit=crop');"></div>
-                <div class="card-info">
-                    <h3>Acessórios</h3>
-                    <p>O toque final de brilho</p>
+                    <div class="hero-highlights" aria-label="Diferenciais da loja">
+                        <div class="highlight">
+                            <strong>Curadoria</strong>
+                            <span>Peças escolhidas com foco em conforto, beleza e uso real.</span>
+                        </div>
+                        <div class="highlight">
+                            <strong>Presencial</strong>
+                            <span>Atendimento na Av. 17 de Abril, em Canoas/RS.</span>
+                        </div>
+                        <div class="highlight">
+                            <strong>Acessível</strong>
+                            <span>Qualidade e sofisticação com preço que cabe no bolso.</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section id="curadorias" class="section" aria-labelledby="curadorias-title">
+            <div class="container">
+                <div class="section-heading center">
+                    <p class="eyebrow">Nossas curadorias</p>
+                    <h2 id="curadorias-title">Escolhas para todos os dias e para todos os detalhes.</h2>
+                    <div class="divider" aria-hidden="true"></div>
+                    <p>Conheça as principais categorias da Flor da Pele e chame no WhatsApp para consultar modelos, cores, tamanhos e novidades disponíveis.</p>
+                </div>
+
+                <div class="collection-grid">
+                    <article class="collection-card">
+                        <img src="./Flor da Pele _ Lingerie, Acessórios e Maquiagem em Canoas_RS_files/photo-1616431575956-619116c9655d" alt="Peça de lingerie delicada com renda" loading="lazy">
+                        <div class="collection-info">
+                            <h3>Lingerie</h3>
+                            <p>Rendas, básicos confortáveis e peças especiais para vestir bem desde a primeira camada.</p>
+                        </div>
+                    </article>
+
+                    <article class="collection-card">
+                        <img src="./Flor da Pele _ Lingerie, Acessórios e Maquiagem em Canoas_RS_files/photo-1522338223662-32664f5a9f5a" alt="Produtos de maquiagem organizados em uma bancada" loading="lazy">
+                        <div class="collection-info">
+                            <h3>Makeup</h3>
+                            <p>Cores, texturas e acabamentos para realçar sua beleza com praticidade.</p>
+                        </div>
+                    </article>
+
+                    <article class="collection-card">
+                        <img src="./Flor da Pele _ Lingerie, Acessórios e Maquiagem em Canoas_RS_files/photo-1535632066927-ab7c9ab60908" alt="Acessórios femininos dourados em destaque" loading="lazy">
+                        <div class="collection-info">
+                            <h3>Acessórios</h3>
+                            <p>Brilhos, detalhes e combinações para finalizar o visual com personalidade.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section section-muted" aria-labelledby="sobre-title">
+            <div class="container about-layout">
+                <div class="about-copy">
+                    <p class="eyebrow">Flor da Pele</p>
+                    <h2 id="sobre-title">Uma loja feita para escolher com calma e sair se sentindo bem.</h2>
+                    <p>
+                        A Flor da Pele reúne lingerie, maquiagem e acessórios em uma vitrine pensada para facilitar a compra: peças bonitas, atendimento próximo e uma seleção que conversa com diferentes estilos.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Atendimento pelo WhatsApp para dúvidas, pedidos e disponibilidade.</li>
+                        <li>Loja física no Guajuviras, em Canoas/RS.</li>
+                        <li>Curadoria com foco em beleza, conforto e bom custo-benefício.</li>
+                    </ul>
+                </div>
+
+                <div class="about-photo" aria-hidden="true">
+                    <img src="./Flor da Pele _ Lingerie, Acessórios e Maquiagem em Canoas_RS_files/photo-1596462502278-27bfdc403348" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section" aria-labelledby="contato-title">
+            <div class="container visit">
+                <div class="contact-panel">
+                    <p class="eyebrow">Visite a loja</p>
+                    <h2 id="contato-title">Flor da Pele em Canoas.</h2>
+                    <div class="contact-lines">
+                        <p><strong>Endereço:</strong> Av. 17 de Abril, 326 - Loja 04</p>
+                        <p>Guajuviras, Canoas/RS</p>
+                        <p><strong>WhatsApp:</strong> (51) 98578-6181</p>
+                        <p><strong>Instagram:</strong> @flordapeleacessorios</p>
+                    </div>
+
+                    <div class="contact-actions">
+                        <a class="btn btn-primary" href="https://wa.me/5551985786181?text=Oi%2C%20Flor%20da%20Pele%21%20Vim%20pelo%20site%20e%20quero%20atendimento." target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
+                        <a class="btn btn-secondary" href="https://www.instagram.com/flordapeleacessorios/" target="_blank" rel="noopener noreferrer">Ver Instagram</a>
+                        <a class="btn btn-secondary" href="https://www.google.com/maps/search/?api=1&amp;query=Av.%2017%20de%20Abril%2C%20326%20Loja%2004%20Guajuviras%20Canoas%20RS" target="_blank" rel="noopener noreferrer">Abrir no Maps</a>
+                    </div>
+                </div>
+
+                <aside class="map-card" aria-label="Localização da Flor da Pele">
+                    <div class="map-content">
+                        <p>Atendimento presencial na Loja 04 e atendimento online pelo WhatsApp para consultar novidades antes de passar por aqui.</p>
+                    </div>
+                </aside>
+            </div>
+        </section>
     </main>
 
-    <section id="contato" class="contato">
-        <h2 style="font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 20px;">Visite nossa Loja</h2>
-        <p style="font-weight: 200; opacity: 0.8;">Av. 17 de Abril, 326 — Loja 04</p>
-        <p style="font-weight: 200; opacity: 0.8;">Guajuviras, Canoas/RS</p>
-        <a href="https://wa.me/5551985786181" target="_blank" class="whatsapp-link">
-            WhatsApp: (51) 98578-6181
-        </a>
-    </section>
+    <aside class="floating-social" aria-label="Canais rápidos de atendimento">
+        <span class="chat-nudge">Fale com a gente</span>
+        <div class="floating-actions">
+            <a class="float-action whatsapp" href="https://wa.me/5551985786181?text=Oi%2C%20Flor%20da%20Pele%21%20Vim%20pelo%20site%20e%20quero%20conversar." target="_blank" rel="noopener noreferrer" aria-label="Iniciar conversa pelo WhatsApp">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path fill="currentColor" d="M12.04 3.2a8.78 8.78 0 0 0-7.57 13.23L3.5 20.9l4.56-1.05A8.79 8.79 0 1 0 12.04 3.2Zm0 1.63a7.15 7.15 0 1 1-3.47 13.4l-.27-.15-2.6.6.56-2.53-.18-.28a7.15 7.15 0 0 1 5.96-11.04Zm-2.3 3.74c-.16 0-.42.06-.65.32-.23.26-.86.84-.86 2.05s.88 2.38 1 2.54c.13.16 1.7 2.72 4.22 3.7 2.1.83 2.52.66 2.98.62.45-.04 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.07-.1-.23-.16-.49-.29-.26-.13-1.53-.75-1.77-.84-.24-.09-.42-.13-.6.13-.17.26-.68.84-.84 1.01-.15.17-.31.2-.57.07-.26-.13-1.1-.41-2.1-1.3-.78-.7-1.3-1.56-1.45-1.82-.15-.26-.02-.4.12-.53.12-.12.26-.31.39-.47.13-.16.17-.26.26-.43.09-.17.04-.32-.02-.45-.06-.13-.57-1.42-.8-1.94-.21-.51-.43-.5-.59-.5h-.06Z"></path>
+                </svg>
+                <span class="sr-only">WhatsApp</span>
+            </a>
+            <a class="float-action instagram" href="https://www.instagram.com/flordapeleacessorios/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram da Flor da Pele">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <rect x="4.2" y="4.2" width="15.6" height="15.6" rx="4.6" fill="none" stroke="currentColor" stroke-width="1.8"></rect>
+                    <circle cx="12" cy="12" r="3.7" fill="none" stroke="currentColor" stroke-width="1.8"></circle>
+                    <circle cx="16.9" cy="7.2" r="1.2" fill="currentColor"></circle>
+                </svg>
+                <span class="sr-only">Instagram</span>
+            </a>
+        </div>
+    </aside>
 
-    <footer>
-        <span class="footer-logo">flor da pele</span>
-        <p style="font-weight: 200; font-size: 0.7rem; opacity: 0.6; letter-spacing: 2px;">
-            CANOAS | RS - &copy; 2026 
-        </p>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="footer-brand" href="file:///C:/Users/Pedro%20Henrique/Documents/Codex/2026-05-09/doctype-html-html-lang-pt-br/index.html#inicio" aria-label="Voltar ao início da Flor da Pele">
+                <img class="footer-logo-image" src="./Flor da Pele _ Lingerie, Acessórios e Maquiagem em Canoas_RS_files/logo.png" alt="Logo Flor da Pele" loading="lazy">
+                <span class="footer-logo">flor da pele</span>
+            </a>
+            <div class="footer-links">
+                <a href="https://www.instagram.com/flordapeleacessorios/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <p class="footer-meta">Canoas | RS - © 2026</p>
+            </div>
+        </div>
     </footer>
 
-    <script>
-        // Smooth scroll para navegação interna
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if(target) {
-                    window.scrollTo({
-                        top: target.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-    </script>
-</body>
-</html>
+
+</body></html>
